@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">StatusSaver</string>
+    <string name="whatsapp_launcher">Open Whatsapp</string>
+    <string name="share_app">Share</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment_images">In Images Fragment</string>
+    <string name="fragment_videos">In videos Fragment</string>
+
+    <string name="images_tab">Images</string>
+    <string name="videos_tab">Videos</string>
+    <string name="gallery_tab">Gallery</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

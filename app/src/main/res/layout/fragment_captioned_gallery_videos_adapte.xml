@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".VideoPlayer">
+
+
+    <VideoView
+        android:id="@+id/video_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:paddingBottom="90dp"
+        >
+
+        <ImageButton
+            android:id="@+id/share_video"
+            android:src="@drawable/baseline_share_white_48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#40000000" />
+
+        <ImageButton
+            android:id="@+id/save_video"
+            android:src="@drawable/baseline_save_alt_white_48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#40000000" />
+
+    </LinearLayout>
+</RelativeLayout>
